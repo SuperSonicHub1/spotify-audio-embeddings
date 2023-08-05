@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "spotify-audio-embeddings"
+version = "0.1.0"
+description = ""
+authors = ["Kyle Anthony Williams <kyle.anthony.williams2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spotify_audio_embeddings"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.12"
+spotipy = "^2.23.0"
+requests = "^2.31.0"
+selectolax = "^0.3.15"
+tdqm = "^0.0.1"
+more-itertools = "^9.1.0"
+tensorflow = "2.13.0"
+openl3 = "^0.4.2"
+nvidia-cudnn-cu11 = "8.6.0.163"
+skops = "^0.8.0"
+matplotlib = "^3.7.2"
+mplcursors = "^0.5.2"
+pygame = "^2.5.0"
+apsw = "^3.42.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
